@@ -1,0 +1,27 @@
+.main{
+	width: fit-content;
+	margin-top: 10px;
+}
+.span{
+	display: inline-block;
+	border: 1px solid black;
+	padding: 8px;
+	cursor: pointer;
+	min-width: 140px;
+	text-align: center;
+}
+.span:hover{
+	background: #d4d4d8;
+}
+
+.first{
+	border-radius: 16px 0 0 16px;
+}
+
+.last{
+	border-radius: 0 16px 16px 0;
+}
+
+.header{
+	font-weight:bold;
+}

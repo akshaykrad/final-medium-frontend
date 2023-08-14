@@ -1,0 +1,53 @@
+.container{
+	text-align: center;
+	padding: 1.5rem;
+	width: 572px;
+	margin:0 auto;
+}
+.container h1{
+	font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+	font-size: 28px;
+	width: 400px;
+	margin: 0 auto 2rem ;
+
+}
+.container ul{
+	list-style: none;
+	margin: 1rem 0;
+}
+.logo{
+	width: 142.1px;
+	height: 22px;
+	margin-bottom: 5rem;
+}
+.svg{
+	fill: #1A8917;
+}
+.cardContainer{
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+}
+.card{
+	border-radius: 8px;
+	width: 226px;
+	height: 160px;
+	border: 2px solid #f6f6f6;
+	padding: 24px;
+	margin-right: 24px;
+	text-align: center;
+}
+.card:hover{
+	border:2px solid #1A8917;
+}
+.btn{
+	padding: 8px 16px;
+	border: none;
+	border-radius: 99em;
+	background-color:#1a8917;
+	color: white;
+	margin: 10px 0;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+}

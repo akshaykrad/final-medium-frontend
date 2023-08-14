@@ -1,0 +1,42 @@
+.content{
+	width: 1080px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.explore{
+	font-size: 42px;
+	font-weight: 600;
+	font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+.topic{
+	width: 360px;
+	height: 200px;
+	font-size: 24px;
+	font-weight: 500;
+	font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+.topic:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.search{
+	width: 640px;
+	/* height: 64px; */
+	font-size: 32px;
+	font-weight: 400;
+	margin: 20px auto;
+	vertical-align: middle;
+	
+}
+.input{
+	width: 100%;
+	border-radius: 40px;
+	background: #f9f9f9;
+	padding-left: 12px;
+	border: 0.8px solid #f9f9f9;
+	outline: none;
+}

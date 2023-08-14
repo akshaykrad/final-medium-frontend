@@ -1,0 +1,14 @@
+.card-container{
+	width: 950px;
+	margin-bottom: 20px;
+}
+
+.title{
+	margin: 10px 0;
+	font-weight: 700;
+}
+
+.details{
+	cursor: pointer;
+}
+

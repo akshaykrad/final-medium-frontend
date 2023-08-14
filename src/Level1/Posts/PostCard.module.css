@@ -1,0 +1,35 @@
+.card-container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	/* width: 950px; */
+	width: 95%;
+}
+
+.card-click{
+	cursor: pointer;
+}
+
+.author-date{
+	display: flex;
+	justify-content: space-between;
+}
+
+.title{
+	margin: 10px 0;
+	font-weight: 700;
+}
+.features{
+	display: flex;
+	justify-content: space-between;
+}
+.main-features{
+	cursor: pointer;
+}
+
+.tags{
+	background-color: #f2f2f2;
+	padding: 8px;
+	border-radius: 16px;
+	margin: 0 8px 0 0;
+}

@@ -1,0 +1,23 @@
+.span{
+	margin-left: 10px;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+}
+
+.create{
+	color: green;
+	margin-left: 10px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.create p {
+	margin: 0 0 0 5px;
+	font-size: 20px;
+}

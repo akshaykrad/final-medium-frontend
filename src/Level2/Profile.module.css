@@ -1,0 +1,64 @@
+.container{
+  display: flex;
+  justify-content: flex-start;
+  height: 89vh;
+}
+
+.divider{
+  background: #e2e2e2;
+  width: 1px;
+  /* height: 100%; */
+}
+
+.details{
+  width: 65%;
+  height: 100%;
+}
+.link{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+
+.profile{
+	height: 40%;
+  width: 500px;
+}
+
+.follow{
+  padding: 8px 16px;
+  border: none;
+  border-radius: 99em;
+  background-color:#1a8917;
+  color: white;
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.following{
+  padding: 8px 16px;
+  border: none;
+  border-radius: 99em;
+  border: 0.8px solid #1a8917;
+  background-color: white;
+  color: #1a8917;
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.membership{  
+  font-weight: 600;padding: 8px 16px;
+  border: none;
+  border-radius: 99em;
+  background-color:#f7db00;
+  color: white;
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}

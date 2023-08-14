@@ -1,0 +1,32 @@
+
+
+.med-logo{
+	width: 45px;
+	height: 45px;
+	margin-right: 20px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+.searchIp{
+	background-color: #f9f9f9;
+	outline: none;
+	border: none;
+	padding: 5px;
+	border-radius: 0 20px 20px 0;
+}
+
+.write{
+	cursor: pointer;
+}
+
+.user-img{
+	cursor: pointer;
+}
+.search{
+	display: flex;
+	align-items: center;
+	background: #f9f9f9;
+	border-radius: 20px;
+	padding: 0 10px;
+}
