@@ -50,7 +50,7 @@ export default function SignUp() {
 				authAxios.post('http://127.0.0.1:3000/signup',newObject)
 				.then((res)=>{
 					console.log(res.data)
-					navigate('/')
+					navigate('/signin')
 				})
 				.catch((error) => {
 					console.error('Error:', error);

@@ -131,7 +131,7 @@ export default function LandingPage() {
 		<hr />
 		<PostToggle toggleBox={toggleBox}/>
 		<div className={classes.cardBox}>
-			<PostList postData={postData} valid={true} onDelete={deleteHandler}/>
+			<PostList postData={postData} valid={false} onDelete={deleteHandler}/>
 		</div>
 	</>
   )

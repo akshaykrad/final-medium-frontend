@@ -13,6 +13,8 @@ import TopicsList from "./Level3/TopicsList";
 import AllUsers from "./Level2/AllUsers";
 import MyProfile from "./Level2/MyProfile";
 import MembershipPage from "./Level3/MembershipPage";
+import SavedLater from "./Level5/SavedLater";
+import ListPage from "./Level5/Lists/ListPage";
 
 const router = createBrowserRouter([
   {
@@ -58,6 +60,14 @@ const router = createBrowserRouter([
   {
     path:"/membership",
     element:<MembershipPage />
+  },
+  {
+    path:"/savedLater",
+    element:<SavedLater />
+  },
+  {
+    path:"/lists/:id",
+    element:<ListPage />
   },
 ]);
 

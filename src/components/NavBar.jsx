@@ -19,7 +19,7 @@ export default function NavBar(props) {
 		if(user){
 			setValid(true)
 		}
-	},[valid])
+	},[])
 	const navigate = useNavigate()
 
 	const onSignIn = () =>{
@@ -35,6 +35,7 @@ export default function NavBar(props) {
 		navigate('/')
 	}
 	const onlogout = () =>{
+		// localStorage.removeItem('user')
 		setValid(false)
 	}
 	const searching = (e) =>{

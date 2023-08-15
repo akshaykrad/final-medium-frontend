@@ -10,7 +10,6 @@ export default function ReadMore() {
 	const location = useLocation()
 	const data = location.state
 	
-	const [topData , setTopData] = useState([])
 	const [simData, setSimData] = useState([])
 
 	const navigate = useNavigate()
